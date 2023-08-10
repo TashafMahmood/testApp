@@ -1,0 +1,49 @@
+.titleHero {
+  background-color: #aecbd8;
+  min-height: 50vh;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+
+  .left {
+    text-align: center;
+    img {
+      max-width: 440px;
+      width: 100%;
+    }
+  }
+  .right {
+    .title {
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 42px;
+      margin-bottom: 30px;
+    }
+    .desc {
+      font-size: 18px;
+      font-weight: 300;
+      width: 85%;
+      text-align: justify;
+      line-height: 30px;
+    }
+  }
+}
+
+@media (max-width: 440px) {
+  .titleHero {
+    padding: 40px 20px;
+    .right{
+        .title{
+            margin: 20px 0;
+            text-align: center;
+            font-size: 20px;
+            line-height: 32px;
+        }
+        .desc{
+            width: 100%;
+            font-size: 16px;
+            line-height: 28px;
+        }
+    }
+  }
+}

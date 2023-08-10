@@ -1,0 +1,22 @@
+.copyright {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  background-color: #0e0a31;
+  padding: 10px;
+
+  .col {
+    svg {
+      color: white;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .company-name {
+    margin-left: 4px;
+    color: white;
+    font-size: 14px;
+  }
+}

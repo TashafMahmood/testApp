@@ -1,0 +1,156 @@
+.navigation-bar {
+  background-color: #0e0a31;
+  // z-index: 2;
+
+  .logo-div {
+    img {
+      max-width: 275px;
+      width: 100%;
+      padding: 10px;
+    }
+  }
+
+  .navigation-menu {
+    display: flex;
+    align-items: center;
+    // border-right: 2px solid white;
+    // justify-content: space-between;
+
+    .menu {
+      color: white;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      cursor: pointer;
+      margin-right: 7%;
+      //   text-transform: uppercase;
+
+      a {
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+          color: #0d6efc;
+          transition: 0.5s ease-in-out;
+        }
+      }
+    }
+  }
+
+  .navigation-end {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    // padding-left: 2%;
+    .need-website {
+      color: #aecbd8;
+
+      svg {
+        font-size: 20px;
+        margin: 0 7px;
+        cursor: pointer;
+
+        &:hover {
+          color: white;
+          transition: 1s;
+        }
+      }
+    }
+    button {
+      // margin-left: 5%;
+      font-size: 14px;
+    }
+    // padding: 0 2%;
+  }
+
+  // .navigation-buttons {
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: space-evenly;
+  // }
+}
+
+.navigation-bar-fixed {
+  // background-color: #0e0a31;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  .logo-div {
+    img {
+      max-width: 275px;
+      width: 100%;
+      padding: 10px;
+    }
+  }
+
+  .navigation-menu {
+    display: flex;
+    align-items: center;
+    border-right: 2px solid white;
+    // justify-content: space-between;
+
+    .menu {
+      color: white;
+      font-weight: 500;
+      letter-spacing: 1.5px;
+      cursor: pointer;
+      margin-right: 10%;
+      //   text-transform: uppercase;
+
+      a {
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+          color: #0d6efc;
+          transition: 0.5s ease-in-out;
+        }
+      }
+    }
+  }
+
+  .navigation-end {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    // padding-left: 2%;
+    .need-website {
+      color: #aecbd8;
+
+      svg {
+        font-size: 20px;
+        margin: 0 7px;
+        cursor: pointer;
+
+        &:hover {
+          color: white;
+          transition: 1s;
+        }
+      }
+    }
+    button {
+      // margin-left: 5%;
+      font-size: 14px;
+    }
+    // padding: 0 2%;
+  }
+
+  // .navigation-buttons {
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: space-evenly;
+  // }
+}
+
+
+@media (max-width:440px){
+  .navigation-bar{
+    .navigation-menu{
+      display: none;
+    }
+    .navigation-end{
+      display: none;
+    }
+  }
+}

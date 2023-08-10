@@ -1,0 +1,40 @@
+.sub-hero {
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+    font-weight: 800;
+    line-height: 45px;
+  }
+
+  .services-row {
+    justify-content: center;
+    .services-column {
+      border: 2px solid;
+      margin: 2%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 50px 20px;
+      width: 22%;
+
+      i {
+        font-size: 70px;
+        color: #5f3a8f;
+      }
+
+      .box-title {
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 0.2px;
+        margin-bottom: 10px;
+      }
+      
+    }
+  }
+}
